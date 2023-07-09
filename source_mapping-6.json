@@ -1,0 +1,32 @@
+{
+  "fields": {
+    "visit_id": {
+      "type": {
+        "field_type": "string"
+      },
+      "mode": "required"
+    },
+    "visit_start_date": {
+      "mode": "nullable",
+      "type": {
+        "field_type": "date",
+        "field_format": "dd/MM/yyyy"
+      }
+    },
+    "visit_end_date": {
+      "mode": "nullable",
+      "type": {
+        "field_type": "date",
+        "field_format": "MM/dd/yyyy"
+      }
+    },
+    "visit_cost": {
+      "mode": "nullable",
+      "type": {
+        "field_type": "double",
+        "leading_currency_symbol": "£",
+        "thousand_separator": ","
+      }
+    }
+  }
+}
