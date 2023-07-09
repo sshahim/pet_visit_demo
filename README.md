@@ -9,6 +9,6 @@ These are scripts that are used in the main notebook (pet_visit_modelling.dbc)
 
 In order to run the pipeline we need to upload 2 files to Azure Databricks DBFS and run pet_visit_modelling.dbc notebook. 
 
-- source_mapping-6.json => "dbfs:/FileStore/tables/source_mapping-6.json"
-- modelling_1.xlsx => "dbfs:/FileStore/tables/modelling_1.xlsx"
+- data/source_mapping-6.json => "dbfs:/FileStore/tables/source_mapping-6.json"
+- data/modelling_1.xlsx => "dbfs:/FileStore/tables/modelling_1.xlsx"
 
